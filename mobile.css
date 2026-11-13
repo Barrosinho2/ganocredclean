@@ -1,0 +1,46 @@
+/* Composição específica para celular: navegação confortável e hero compacta. */
+@media(max-width:700px){
+ .literal-hero,.literal-hero .literal-app{min-height:0;height:auto}
+ .literal-hero .literal-app{padding-bottom:0}
+ .literal-hero .section--header{padding:18px 20px 0;row-gap:15px;min-height:105px}
+ .literal-hero .header__logo{font-size:22px;line-height:32px}
+ .literal-hero .header__buy{font-family:var(--sans);font-size:13px;line-height:20px;text-decoration:none;background:var(--green);color:#fff;padding:9px 17px;border-radius:24px;display:block}
+ .literal-hero .header__buy:hover,.literal-hero .header__buy:focus-visible{color:#fff;background:var(--green-dark)}
+ .literal-hero .header__menu{width:100%;border-top:1px solid #0002;padding-top:2px}
+ .literal-hero .header__nav{width:100%;justify-content:space-between;gap:8px;font-size:15px}
+ .literal-hero .header__link{display:flex;align-items:center;min-height:44px}
+ .literal-hero .section--hero{padding:132px 20px 26px;grid-template-rows:270px;align-items:center}
+ .literal-hero .hero__title,.literal-hero .hero__horse{grid-row:1;grid-column:1}
+ .literal-hero .hero__title{font-size:25vw;line-height:1.05}
+ .literal-hero .hero__title-line--2{font-size:15.1vw;line-height:1.3;margin-top:8px}
+ .literal-hero .hero__horse{width:min(115vw,600px);max-width:none}
+ .literal-hero .hero__smoker{display:none}
+ .literal-hero .decor__props,.literal-hero .decor__coords,.literal-hero .decor__compass,.literal-hero .hero__compass{display:none}
+ .literal-hero .grid-bg{background-size:25vw 100px;background-position:0 105px;opacity:.65}
+ .container{width:calc(100% - 40px)}
+ .section-space{padding:48px 0}
+ .section-heading{margin-bottom:25px;gap:16px}
+ .section-number{display:none}
+ .eyebrow{font-size:10px;letter-spacing:1.1px}
+ h2,.contact h2{font-size:36px;line-height:1.16;letter-spacing:-.8px;text-wrap:pretty}
+ .intro-layout,.clarity-layout,.faq-layout{grid-template-columns:1fr;gap:28px}
+ .intro-copy>p:first-child{font-size:17px}
+ .intro-copy>p+p,.clarity-copy,.possibilities p,.step>p,.faq-answer{font-size:15px;line-height:1.75}
+ .possibilities article,.possibilities article+article{padding-right:0}
+ .possibility-index{display:none}
+ .possibilities h3{font-size:17px}
+ .text-link{min-height:44px;align-items:center;font-size:14px}
+ .how-heading{display:block}.how-heading>p{margin-top:22px;font-size:15px}
+ .step{padding-left:52px}.step h3{font-size:20px}
+ .step-caption{font-size:9px;letter-spacing:.5px}
+ .button{min-height:50px;font-size:14px}
+ .how-footer .button,.contact-copy .button{width:100%;font-size:14px}
+ .conditions{padding:22px}.conditions dl>div{font-size:13px}.conditions dd{font-size:13px}
+ .faq summary{font-size:15px;padding-block:21px}.faq-star{display:none}
+ .contact-inner{padding-block:48px}.contact-copy>p:not(.eyebrow){font-size:15px}
+ .footer-info{font-size:12px}.footer-bottom{font-size:11px;line-height:1.6}
+ .footer-top>p{font-size:17px}.footer-bottom>span+span{font-size:9px}
+ .contact-dialog{padding:32px 22px;max-height:calc(100dvh - 24px)}
+ .contact-dialog h2{font-size:34px}
+}
+@media(max-width:360px){.literal-hero .section--hero{grid-template-rows:235px}.literal-hero .header__logo{font-size:20px}.literal-hero .header__nav{font-size:14px}h2,.contact h2{font-size:32px}}

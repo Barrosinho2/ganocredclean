@@ -1,0 +1,4 @@
+.literal-hero .literal-coin{position:absolute;left:59%;top:calc(var(--ref-unit)*101);width:calc(var(--ref-unit)*14);height:auto;animation:reference-coin-turn 24s linear infinite}
+@keyframes reference-coin-turn{to{transform:rotate(360deg)}}
+@media(max-width:1080px){.literal-hero .literal-coin{top:calc(var(--ref-unit)*58);left:76%;width:calc(var(--ref-unit)*7)}}
+@media(prefers-reduced-motion:reduce){.literal-hero .literal-coin{animation:none}}

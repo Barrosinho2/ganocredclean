@@ -1,0 +1,23 @@
+GANOCRED — PACOTE PARA DEPLOY
+
+Site estático em HTML, CSS e JavaScript. Não exige instalação, build ou servidor Node.js em produção.
+
+COMO PUBLICAR
+Extraia o ZIP e envie seu conteúdo para a pasta pública da hospedagem. O index.html deve ficar na raiz dessa pasta, junto dos arquivos CSS/JS e da pasta assets. Preserve os nomes e a estrutura das pastas.
+
+CONFIGURAÇÃO
+Edite config.js para preencher WhatsApp (55 + DDD + número), CNPJ, endereço, juros, CET e prazos. Esses campos ainda estão vazios nesta versão. Sem telefone, o formulário exibe um aviso e não encaminha ao WhatsApp.
+
+O formulário coleta nome, valor desejado e finalidade. Ao continuar, abre o WhatsApp com as respostas na mensagem; o visitante confirma o envio. Não há banco de dados, envio automático ou armazenamento pelo site.
+
+ARQUIVOS
+index.html: conteúdo e estrutura.
+styles.css, literal-hero.css, literal-details.css e ganocred-theme.css: aparência.
+script.js e literal-hero.js: formulário, navegação e vídeos.
+config.js: dados da empresa e contato.
+assets/: imagens, vídeos e fontes locais.
+
+ORIGEM VISUAL
+A hero foi reproduzida a pedido do usuário a partir de https://moneyincheck.org/ e depois adaptada à GANOCRED. Os arquivos em assets/reference vieram da referência. As licenças disponíveis das demais fontes acompanham assets/fonts.
+
+Este pacote contém a versão atual. A publicação deve ser feita na sua hospedagem.
